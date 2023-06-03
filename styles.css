@@ -1,1 +1,75 @@
 /*  your css code here. If applicable */
+body{
+	background-color:#f5f5f5;
+}
+.navbar{
+	height:65px;
+	color: white;
+	background-color: #011e29;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+.navbar div{
+	font-size: 25px;
+	font-weight: 600;
+	text-align:center;
+}
+
+.main-container{
+	margin: 0 15px;
+	margin-top:10px;
+	display:flex;
+	column-gap:5px
+}
+
+.article-list,.pictorial-news{
+	background-color:white;
+	width: 25%;
+	padding: 5px;
+	padding-top:15px;
+	border-radius:10px;
+}
+.article-list .title{
+	font-size:13px;
+	font-weight:600;
+	text-align:center;
+}
+.list li{
+	font-size:12px;
+}
+.main-article{
+	background-color:white;
+	width:45%;
+	padding:15px 10px;
+	border-radius:10px;
+}
+.main-article .title{
+	text-align:center;
+	font-size:16px;
+	font-weight:600;
+}
+.para{
+	font-size:12px;
+	padding:15px 0;
+}
+.pictorial-news .title{
+	text-align:center;
+	font-size:13px;
+	font-weight:600;
+}
+.images{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	padding: 15px 0;
+}
+.images img{
+	width: 100px;
+}
+.article-list{
+	height:35%;
+}
+.main-article{
+	height:45%;
+}
